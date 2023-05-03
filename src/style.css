@@ -5,7 +5,7 @@
   color: #fff;
 }
 body{
-    overflow: hidden;
+    background-color: #111;
 }
 .banner {
   width: 100%;
@@ -55,7 +55,7 @@ nav ul li:hover::after{
 }
 main{
     width: 100%;
-    height: 100%;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,4 +109,14 @@ main p{
 }
 .buttons button:hover span{
     width: 100%;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 1rem;
 }
